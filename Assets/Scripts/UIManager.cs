@@ -20,7 +20,7 @@ public class UIManager : MonoBehaviour
     {
         // retrieves the persistent DataManager object
         // localiza o data manager persistente
-        dataManager = FindObjectOfType<DataManager>();
+        dataManager = FindFirstObjectByType<DataManager>();
     }
 
     public void CarregarDados()

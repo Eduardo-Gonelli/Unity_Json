@@ -4,7 +4,7 @@ using UnityEngine.Networking;
 
 /// <summary>
 /// @author: https://github.com/Eduardo-Gonelli
-/// Last Update: 2024/09/11
+/// Last Update: 2025/09/10
 /// </summary>
 
 public class DataManager : MonoBehaviour
@@ -14,9 +14,9 @@ public class DataManager : MonoBehaviour
     public static event OnDataLoaded onDataLoaded;
 
     // url para receber os dados
-    private string url_load_data = "http://localhost/gsd_a5/03_sistema/recuperar.php";
+    private string url_load_data = "http://localhost/senac/a6gsd/sistema/recuperar.php";
     // url para enviar os dados
-    private string url_send_data = "http://localhost/gsd_a5/03_sistema/adicionar.php";
+    private string url_send_data = "http://localhost/senac/a6gsd/sistema/adicionar.php";
     public string json;
         
     void Start()
