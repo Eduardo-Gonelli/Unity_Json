@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
@@ -20,7 +19,7 @@ public class UIManager : MonoBehaviour
     {
         // retrieves the persistent DataManager object
         // localiza o data manager persistente
-        dataManager = FindObjectOfType<DataManager>();
+        dataManager = FindAnyObjectByType<DataManager>();
     }
 
     public void CarregarDados()
